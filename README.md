@@ -8,7 +8,7 @@ The coding exercise is designed to test knowledge of the following concepts:
  
 ## Overview 
  
-The coding exercise covers the following practical problems:0 
+The coding exercise covers the following practical problems: 
 * Finding all-pairs shortest path 
  
 ## Coding exercises 
