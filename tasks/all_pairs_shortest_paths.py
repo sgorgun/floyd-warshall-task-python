@@ -22,6 +22,6 @@ def get_sum_of_all_pairs_shortest_paths(n: int, adj_matrix: List[List[int]]) -> 
         adj_matrix (List[List[int]]): adjacency matrix with weights
     Returns:
         Tuple [int, int]: the sum of all-pairs shortest paths between all connected vertices
-        and the number of the disconnetced pairs of vertices
+        and the number of the disconnected pairs of vertices
     """
     pass
