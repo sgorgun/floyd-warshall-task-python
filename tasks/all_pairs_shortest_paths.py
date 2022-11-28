@@ -4,8 +4,8 @@ from typing import List, Tuple
 
 def get_sum_of_all_pairs_shortest_paths(n: int, adj_matrix: List[List[int]]) -> Tuple[int, int]:
     """
-    Returns the tuple, where the first value is the sum of all-pairs shortest paths between all achievable vertices
-    and the second is the number of the unachievable pairs of vertices in an undirected weighted graph.
+    Returns the tuple, where the first value is the sum of all-pairs shortest paths between all connected vertices
+    and the second is the number of the disconnected pairs of vertices in an undirected weighted graph.
     The weight of (u,v)-edge represents a distance between 'u' and 'v' and vice versa.
 
     Edges are stored as an adjacency matrix, where 0 means no edge and a positive value means edge presence and
