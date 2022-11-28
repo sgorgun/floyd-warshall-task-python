@@ -66,7 +66,7 @@ graph TD;
             [6, 8, 0, 0, 9],
             [0, 5, 7, 9, 0]]` 
  
-Expected result: `(80, 0)` 
+Expected result: `(126, 0)` 
  
 **Example 2:** 
 ```mermaid 
@@ -85,8 +85,8 @@ graph TD;
             [6, 8, 0, 0, 0],
             [0, 0, 0, 0, 0]]` 
  
-Expected result: `(38, 12)` 
- 
+Expected result: `(70, 8)` 
+    
 **Example 3:** 
 ```mermaid 
 graph TD; 
