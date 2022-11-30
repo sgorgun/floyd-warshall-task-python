@@ -15,7 +15,7 @@ The coding exercise covers the following practical problems:
  
 ### Exercise 1: Finding all-pairs shortest path 
  
-Given the number of vertices `n`, graph adjacency matrix `adj_matrix` of an undirected weighted graph, implement the function below that returns two arguments. The first argument is the sum of all-pairs shortest paths between all connected vertices. And the second is the number of the disconnected pairs of vertices in an undirected weighted graph.  
+Given the number of vertices `n`, graph adjacency matrix `adj_matrix` of an undirected weighted graph, implement the function below that returns two arguments. The first argument is the sum of all-pairs shortest paths between all connected vertices. And the second is the number of disconnected pairs of vertices in an undirected weighted graph.  
 Vertices are enumerated from `0` to `n-1`. `adj_matrix` contains only non-negative values, 0 means no edge and a positive value means edge presence and reflects its weight. 
 Each weight of (`u`, `v`)-edge represents a distance between `u` and `v` and vice versa.  
  
@@ -25,7 +25,7 @@ Expected algorithm complexity is O(N^3), N(`n`) - number of vertices.
 def get_sum_of_all_pairs_shortest_paths(n: int, adj_matrix: List[List[int]]) -> Tuple[int, int]:
     """
     Returns the tuple, where the first value is the sum of all-pairs shortest paths between all connected vertices
-    and the second is the number of the disconnected pairs of vertices in an undirected weighted graph.
+    and the second is the number of disconnected pairs of vertices in an undirected weighted graph.
     The weight of (u,v)-edge represents a distance between 'u' and 'v' and vice versa.
 
     Edges are stored as an adjacency matrix, where 0 means no edge and a positive value means edge presence and
@@ -42,7 +42,7 @@ def get_sum_of_all_pairs_shortest_paths(n: int, adj_matrix: List[List[int]]) -> 
         adj_matrix (List[List[int]]): adjacency matrix with weights
     Returns:
         Tuple [int, int]: the sum of all-pairs shortest paths between all connected vertices
-        and the number of the disconnected pairs of vertices
+        and the number of disconnected pairs of vertices
     """
     pass
 ``` 
