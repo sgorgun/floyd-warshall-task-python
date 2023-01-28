@@ -2,12 +2,11 @@
  
 ## Purpose 
  
-The coding exercise is designed to test knowledge of the following concepts: 
+The coding exercise is designed to test your knowledge of the following concepts: 
  
-* Floyd-Warshall algorithm 
+* The Floyd-Warshall algorithm 
  
 ## Overview 
  
-The coding exercise covers the following practical problems:
-* Finding all-pairs shortest path 
- 
+The coding exercise covers the following practical problems: 
+* Finding the all-pairs shortest path 
