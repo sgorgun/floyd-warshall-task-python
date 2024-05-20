@@ -23,4 +23,26 @@ def get_sum_of_all_pairs_shortest_paths(n: int, adj_matrix: List[List[int]]) -> 
         Tuple [int, int]: the sum of the all-pairs shortest paths between all connected vertices
         and the number of disconnected pairs of vertices
     """
-    pass
+    dist = adj_matrix.copy()
+    disconnected_pairs = 0
+
+    for i in range(n):
+        for j in range(n):
+            if i != j and dist[i][j] == 0:
+                dist[i][j] = float('inf')
+
+    for k in range(n):
+        for i in range(n):
+            for j in range(n):
+                if dist[i][k] + dist[k][j] < dist[i][j]:
+                    dist[i][j] = dist[i][k] + dist[k][j]
+
+    shortest_paths_sum = 0
+    for i in range(n):
+        for j in range(n):
+            if dist[i][j] != float('inf'):
+                shortest_paths_sum += dist[i][j]
+            else:
+                disconnected_pairs += 1
+
+    return shortest_paths_sum, disconnected_pairs
